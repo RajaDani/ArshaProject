@@ -1,0 +1,57 @@
+.servicesFlex {
+    display: flex;
+    flex-flow: wrap;
+    background-color: #f3f5fa !important;
+}
+.servicesCardFlex {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 40px;
+}
+.bodyComponents {
+    padding: 30px;
+    background-color: #fff;
+    height: 300px;
+}
+.bodyComponents:hover {
+    margin-top: -10px;
+    animation-name: slide;
+    animation-duration: 0.5s;
+}
+.bodyComponents:hover .bodyHeader {
+    color: rgb(60, 60, 212) !important;
+}
+@keyframes slide {
+    from {margin-top: 0px;}
+    to {margin-top: -10px;}
+  }
+
+.bodyComponents span {
+    color:  rgb(70, 70, 187);
+    font-weight: 800;
+}
+.bodyHeader {
+    margin-top: 25px;
+    color: #2a4a80;
+    font-weight: 600;
+}
+.bodyParagraph {
+    margin-top: 20px;
+}
+.jumbotronHeader {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 900;
+    color: #fff;
+}
+.jumbotronFlex {
+    display: flex;
+    justify-content: space-around;     
+}
+.jumbotronFlex p {
+    color: #fff;
+}
+.jumbotron {
+    margin-top: 40px;
+    background-color:rgba(46, 65, 97, 0.9) !important;
+}

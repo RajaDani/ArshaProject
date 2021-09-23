@@ -1,0 +1,104 @@
+.aboutHeader {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-weight: 700;
+    color: #37517e;
+    font-family: sans-serif
+}
+.flexAbout {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fa-check-double {
+    color: #65bae2;
+}
+.aboutDetails{
+    margin-top: 20px;
+    padding: 20px;
+}
+.learnMoreBtn {
+    border: 2px solid #65bae2 !important;
+    color: #65bae2 !important;
+    border-radius: 5px;
+    width: 150px;
+}
+.heading {
+    color: #37517e;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.aboutParagraph {
+    color : #848484
+}
+
+.toggleLists {
+    display: flex;
+}
+.btn-link { 
+    text-decoration: none !important;
+    color: #444 !important;
+}
+.btn-link:hover {
+    color: rgb(80, 80, 231) !important;
+    text-decoration: none !important;
+}
+#toggleLinks {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.cardNumber {    
+    color: rgb(80, 80, 231) ;
+    margin-right: 10px;
+}
+#aboutCardHeader {
+    background-color: #fff !important;
+}
+.fa-chevron-circle-down {
+    color: rgb(80, 80, 231);
+}
+
+.aboutFlexContainer {
+    margin-top: 60px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f3f5fa !important;
+}
+.aboutStatusFlex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.statusImg {
+    width: 100%;
+    margin-top: 50px;
+}
+.progressDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.progress {
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.cardFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 568px){
+    .aboutFlexContainer {
+        flex-direction: column-reverse;
+    }
+    .btn-link {
+        font-size: 10px !important;
+        margin-left: -25px;
+    }
+    
+    .aboutFlexContainer img {
+        width: 100%;
+    }
+}

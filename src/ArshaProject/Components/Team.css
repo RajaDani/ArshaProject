@@ -1,0 +1,45 @@
+.TeamFlex {
+    display: flex;
+    flex-flow: wrap;
+    background-color: #f3f5fa !important;
+}
+.teamMemberImg {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 10px;  
+}
+.teamMemberName {
+    font-weight: 900;
+    color: rgb(39, 39, 158);
+}
+.teamMemberDesignation {
+    color: #444444 ;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.teamMemberDetails {
+    color: #444444 ;
+    font-size: 14px;
+}
+.fab {
+    background-color: #f3f5fa;
+    color :rgb(87, 87, 153) ;
+}
+.fab:hover {
+    color: #fff;
+    background-color: rgb(71, 178, 228);
+}
+.teamCards {
+    border-radius: 7px !important;
+}
+.teamCards:hover {
+    margin-top: -10px;
+    animation-name: slide;
+    animation-duration: 1s;
+}
+
+@keyframes slide {
+    from {margin-top: 0px;}
+    to {margin-top: -10px;}
+  }

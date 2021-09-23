@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    border : 0px;
+}
+.parentDiv {
+    background-color: #434da3;
+    color: #fff;
+}
+.navbarToggler {
+    color: #fff !important;
+    background-color: #fff;
+}
+.navbarBrand {
+    font-size: 24px;
+    font-weight: 700; 
+}
+#navbarLoginButton {
+    margin-left: 50px;
+    border-radius: 20px;
+    width: 120px;  
+}
+.container {
+    font-family: 'Montserrat', cursive;
+}
+.cardHeader {
+    font-weight: 800;
+}
+.bodyButtons {
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+
+} 
+
+.about-card:hover{
+    background: #e0e0e0;
+}
+
+.about-card{
+    border: none!important;
+}
+
+.about-card img{
+    max-height: 200px;
+}
+/* .card {
+    background-color: #497844 !important;
+    color : #fff; 
+} */
+.cardHeader {
+    padding: 10px;
+    width: 320px;
+}
+.furnitureImage {
+    width: 100%;
+    height: 400px;
+}
+/* .AboutCard {
+    background-color: #fff !important;
+    color: #444;
+    padding: 15px;
+} */
+.aboutImg {
+    height: 250px;
+    margin-bottom: 20px;
+}
+.card-text {
+     text-align: center;
+     margin-top: 30px;
+     font-weight: 800;
+}
+
+.goAwayButton {
+    border-radius: 30px;
+    background-color: rgb(57, 153, 57);
+    padding: 15px;
+    border : 1px solid white;
+    width: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.goAwayButton span {
+    color: #fff;
+}
+.aboutImg:hover {
+    background-color: rgb(213, 235, 211);
+}
+@media screen and (max-width:400px) {
+    .cardHeader {
+        padding: 10px;
+        width: auto;
+    }
+    .furnitureImage {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+#bodyCard {
+    background-color: #497844;
+}

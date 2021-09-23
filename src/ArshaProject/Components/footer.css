@@ -1,0 +1,64 @@
+.footerSmallFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerFlex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    background-color: #f3f5fa !important;
+    padding-top: 50px;
+    margin-bottom: -50px;
+}
+.phoneEmail {
+    font-size: 14px;
+    padding: 3px;
+    margin-left: 10px;
+}
+.footerBrand {
+    font-weight: 800;
+    padding: 20px;
+    color: #37517e;
+}
+.address {
+    margin-top: -20px;
+    margin-bottom: 30px; 
+}
+.footerLinksHeader {
+    padding: 20px;
+    margin-left: 45px;
+    font-weight: 800;
+    color: #37517e;
+}
+.footerLinks {
+    list-style: none;
+    /* margin-left: 20px; */
+    margin-top: -20px;
+}
+.footerLinks li {
+    padding: 8px;
+    font-size: 13px;
+}
+.fa-angle-right {
+    margin-right: 7px;
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fab {
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(70, 70, 187);
+    border-radius: 30px;
+    margin-left: 4px;
+}
+.copyright {
+    display: flex;
+    justify-content: center ;
+    background-color: #e4e7ee; 
+    width:auto; 
+}
+.designed {
+    margin-bottom: -50px;
+}

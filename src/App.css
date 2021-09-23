@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+
+#brandImage {
+    height: 50px;
+    width: 60px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+#loginButton {
+  color : rgb(166, 135, 250);
+  background-color: #ffff;
+  border : 1px solid rgb(166, 135, 250) ; 
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: auto;
+  font-style: Verdana;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#createAccountButton {
+  color : rgb(166, 135, 250);
+  background-color: rgba(255, 255, 255, 0.904);
+  border : 1px solid rgb(166, 135, 250) ; 
+  border-radius: 20px;
+  font-style: Verdana;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-link {
+  font-size: 16px;
+  font-style: Verdana;
+}
+#navbar {
+  background-color: rgb(250, 248, 248);
+}
+#navbarHead {
+     padding-left: 70px;
+     padding-right: 70px; 
+}
+#contactButton {
+      color: whitesmoke;
+      background-color:#741fa4;
+      border-radius: 30px;
+      padding: 8px;
+      width: 150px;
+      font-size: 16px;
+      margin-right: 10px;
+}
+#similarOrderButton {
+      color: #444;
+      background-color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: 0px;
+}
+#bodyHeader {
+      color: #542e7c;
+      font-weight: bolder;
+}
+#bodyParagraph {
+      color: #250447;
+      margin-top: 20px;
+      font-size: 16px;
+      margin-bottom: 10px;
+}
+#bodyParagraphTop {
+  color: #250447;
+  margin-top: 20px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+#bodyImage {
+      height: 500px;
+      width: 500px;
+}
+#dollarIcon {
+      color : #741fa4 ;
+      border: 2px solid #741fa4;
+      border-radius: 35px;
+      width: 30px;
+}
+#dollarIcon span{
+      padding: 5px;
+}
+#bodyComponents {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 2px 2px rgb(214, 206, 206);
+}
+#marketAnalysis {
+  color: #ffff;
+  margin-bottom: 20px;
+}
+#marketParagraph {
+  color: #ffff;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+#marketDiv {
+  background-color:#741fa4;
+  border: 1px solid #741fa4;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 2px 2px #741fa4;
+}
+#readMoreButton {
+  background-color: #741fa4;
+  border : 0px;
+  color: whitesmoke;
+  margin-bottom: 12px;
+}
+@media screen and (max-width : 400px) {
+  #bodyImage {
+      width: 300px;
+      height: 300px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.custom-card{
+  /* Styling of Card*/
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-card:hover{
+  background-color: purple;
+  color: #fff;
 }

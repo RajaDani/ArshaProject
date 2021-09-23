@@ -1,0 +1,40 @@
+#loginFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fab {
+    background-color: #f3f5fa;
+    color :rgb(87, 87, 153) ;
+}
+.fab:hover {
+    color: #fff;
+    background-color: rgb(71, 178, 228);
+}
+.signInIcons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+.signInIcons h5 {
+    margin-right: 30px;
+    margin-top: 5px;
+    font-weight: 800;
+    color: #535151;
+}
+.checkBox {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.loginFlex {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.loginBtn {
+    width: 150px;
+    background-color: rgb(49, 49, 192) !important;
+    color: #fff !important;
+}

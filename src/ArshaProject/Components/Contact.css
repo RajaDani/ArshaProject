@@ -1,0 +1,57 @@
+.contactFlex {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f3f5fa !important;
+}
+.contactIcons {
+    height: 50px;
+}
+.fa-map-marker-alt , .fa-phone , .fa-envelope {
+    padding: 10px;
+
+    color :rgb(71, 178, 228) ;
+}
+.fa-map-marker-alt:hover , .fa-phone:hover , .fa-envelope:hover {
+    color: #fff;
+    background-color: rgb(71, 178, 228);
+}
+
+.headings {
+    font-weight: 800;
+    color: rgb(41, 41, 187);
+}
+
+.contactOuterDiv {
+    padding: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.contactInnerDiv {
+    margin-left: 20px;
+}
+.contactInnerDiv p {
+    font-size: 14px;
+    color: rgb(75, 75, 138);
+}
+
+.contactOuterDivImg img{
+    margin-top: 30px;
+    width: 100%;    
+}
+.contactCard {
+    border : 0px !important ;
+}
+.formBtn {
+    display: flex;
+    justify-content: center;
+}
+.contactBtn {
+    border-radius: 30px !important;
+    padding: 10px !important;
+    background-color: rgb(71, 178, 228) !important;
+    width: 180px;
+    color: #fff !important;
+}
+.contactForm {
+    padding: 15px;
+}
